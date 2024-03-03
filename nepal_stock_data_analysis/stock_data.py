@@ -103,6 +103,7 @@ def parse_data():
 
         tree = html.fromstring(html_content)
 
+        # extract all rows using xpath
         data_rows = tree.xpath("//div[@class='table-responsive']//tbody/tr")
         for row in data_rows:
             data = row.xpath("td//text()")
