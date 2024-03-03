@@ -1,0 +1,5 @@
+selenium
+lxml
+pandas
+psycopg2-binary
+sqlalchemy
